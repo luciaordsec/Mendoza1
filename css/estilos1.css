@@ -1,0 +1,80 @@
+body {
+    background-color:rgb(153, 192, 214);
+    margin: 2cm;
+    font-size: 20px;
+}
+header{
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: rgb(151, 26, 26);
+    font-size: 45px;
+    text-decoration: underline;
+    text-shadow: 5px 5px 2px grey ;
+    width: 59%;
+    display: inline-block;
+}
+h2 {
+    font-size: 35px;
+    color: rgb(55, 102, 76);
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+p {
+    text-indent: 1cm;
+    font-size: 20px;
+    text-align: justify;
+    color:rgb(5, 13, 131);
+    font-family: Arial;
+}
+footer {
+    background-color: rgb(33, 82, 83);
+    margin-left: -2cm;
+    margin-right: -2cm;
+    padding: 10px;
+}
+.boton {
+    display: inline-block;
+    background-color: teal;
+    border: 2px;
+    width: calc((100%/3) - 8px);
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 0px;
+    border-style: outset;
+}
+div {
+    font-size: 30px;
+}
+a:hover {
+    color: chocolate;
+    background-color:mediumblue;
+    font-weight: bold;
+}
+#color1{
+    text-align: center;
+    background-color: rgb(27, 90, 27);
+}
+#color2{
+    background-color: rgb(95, 131, 95);
+}
+table{
+    text-align: center;
+}
+@media screen and (max-width:800px){
+    .img1{
+        width: 50%;
+    }
+    h1{
+        width: 100%;
+    }
+    svg{
+        width: 100%;
+    }
+}
+
+svg{
+    background-color: rgb(14, 14, 48);
+}
